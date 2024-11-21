@@ -10,9 +10,6 @@ return a * b;
 public static double sumar(double a, double b) {
 return a + b;
 }
-public static double restar(double a, double b) {
-return a - b;
-}
 public static void main(String[] args) {
 Scanner scanner = new Scanner(System.in);
 System.out.println("Calculadora Simple:");
@@ -22,10 +19,8 @@ System.out.print("Introduce el segundo número: ");
 double numero2 = scanner.nextDouble();
 double resultadoDividir = dividir(numero1, numero2);
 double resultadoSumar = sumar(numero1, numero2);
-double resultadoRestar = restar(numero1, numero2);
 double resultadoMultiplicar = multiplicar(numero1, numero2);
 System.out.println("Resultado de la suma: " + resultadoSumar);
-System.out.println("Resultado de la resta: " + resultadoRestar);
 System.out.println("Resultado de la division: " + resultadoDividir);
 System.out.println("Resultado de la multiplicación: " + resultadoMultiplicar);
 scanner.close();
